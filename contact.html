@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — WatchWorld</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">WatchWorld</a>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>Have a question about watches? Reach us via the form below or email <strong>isaacokeyo007@gmail.com</strong>.</p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <label for="name">
+        Name
+        <input type="text" name="name" id="name" placeholder="John Doe" required minlength="2" />
+      </label>
+
+      <label for="email">
+        Email
+        <input type="email" name="email" id="email" placeholder="you@example.com" required />
+      </label>
+
+      <label for="message">
+        Message
+        <textarea name="message" id="message" rows="6" placeholder="Write your message here..." required minlength="10"></textarea>
+      </label>
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+
+      <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <section class="contact-info">
+      <h2>Other Ways to Connect</h2>
+      <ul>
+        <li>📧 Email: <a href="mailto:isaacokeyo007@gmail.com">isaacokeyo007@gmail.com</a></li>
+        <li>📞 Phone: + (254) 7432-07565</li>
+        <li>📍 Location: Nairobi, Kenya</li>
+        <li>📸 Instagram: <a href="https://instagram.com/watchworld" target="_blank">@watchworld</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year5"></span> WatchWorld — Celebrating Timeless Luxury</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

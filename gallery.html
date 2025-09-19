@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — WatchWorld</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">WatchWorld</a>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Watch Gallery</h1>
+    <div class="gallery-grid" id="gallery-grid">
+      <figure class="gallery-item">
+        <img src="images/p18.jpg" alt="Rolex Submariner" loading="lazy" />
+        <figcaption>Rolex Submariner — a timeless diving icon.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p6.jpg" alt="Omega Speedmaster" loading="lazy" />
+        <figcaption>Omega Speedmaster — the first watch on the moon.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p17.jpg" alt="TAG Heuer Carrera" loading="lazy" />
+        <figcaption>TAG Heuer Carrera — inspired by motorsport racing.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p20.jpg" alt="Seiko Prospex" loading="lazy" />
+        <figcaption>Seiko Prospex — Japanese precision built for explorers.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p13.jpg" alt="Patek Philippe Nautilus" loading="lazy" />
+        <figcaption>Patek Philippe Nautilus — luxury redefined in steel.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p14.jpg" alt="Audemars Piguet Royal Oak" loading="lazy" />
+        <figcaption>Audemars Piguet Royal Oak — the original luxury sports watch.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p15.jpg" alt="Casio G-Shock" loading="lazy" />
+        <figcaption>Casio G-Shock — toughness meets everyday wear.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/p16.jpg" alt="Cartier Tank" loading="lazy" />
+        <figcaption>Cartier Tank — elegance with Parisian heritage.</figcaption>
+      </figure>
+    </div>
+
+    <!-- lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Close">×</button>
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year4"></span> WatchWorld — Celebrating Timeless Luxury</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brands — WatchWorld</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">WatchWorld</a>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="brands.html" aria-current="page">Brands</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Luxury Watch Brands</h1>
+      <p>Filter by category:</p>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="swiss">Swiss</button>
+        <button class="filter-btn" data-filter="japanese">Japanese</button>
+        <button class="filter-btn" data-filter="luxury">Luxury</button>
+      </div>
+
+      <div class="grid projects-grid" id="projects-grid">
+        <!-- brand card 1 -->
+        <article class="card project" data-category="swiss luxury" id="brand-1">
+          <img src="images/p4.jpg" alt="Rolex watch" />
+          <div class="card-body">
+            <h3>Rolex</h3>
+            <p>Swiss-made, timeless design, synonymous with prestige and innovation.</p>
+            <a class="btn small" href="https://www.rolex.com/" target="_blank">Visit Rolex</a>
+          </div>
+        </article>
+
+        <!-- brand card 2 -->
+        <article class="card project" data-category="swiss luxury" id="brand-2">
+          <img src="images/p5.jpg" alt="Omega watch" />
+          <div class="card-body">
+            <h3>Omega</h3>
+            <p>Renowned for space exploration watches and official Olympic timekeeping.</p>
+            <a class="btn small" href="https://www.omegawatches.com/" target="_blank">Visit Omega</a>
+          </div>
+        </article>
+
+        <!-- brand card 3 -->
+        <article class="card project" data-category="swiss luxury" id="brand-3">
+          <img src="images/p6.jpg" alt="TAG Heuer watch" />
+          <div class="card-body">
+            <h3>TAG Heuer</h3>
+            <p>Luxury sports watches with motorsport-inspired precision.</p>
+            <a class="btn small" href="https://www.tagheuer.com/" target="_blank">Visit TAG Heuer</a>
+          </div>
+        </article>
+
+        <!-- brand card 4 -->
+        <article class="card project" data-category="japanese" id="brand-4">
+          <img src="images/p7.jpg" alt="Seiko watch" />
+          <div class="card-body">
+            <h3>Seiko</h3>
+            <p>Pioneering Japanese brand combining tradition with modern technology.</p>
+            <a class="btn small" href="https://www.seikowatches.com/" target="_blank">Visit Seiko</a>
+          </div>
+        </article>
+
+        <!-- brand card 5 -->
+        <article class="card project" data-category="luxury swiss" id="brand-5">
+          <img src="images/1.jpg" alt="Patek Philippe watch" />
+          <div class="card-body">
+            <h3>Patek Philippe</h3>
+            <p>One of the oldest Swiss watchmakers, known for unmatched craftsmanship.</p>
+            <a class="btn small" href="https://www.patek.com/" target="_blank">Visit Patek Philippe</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year3"></span> WatchWorld — Celebrating Timeless Luxury</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
